@@ -7,7 +7,7 @@
 
 ### Lambda Usage
 I incorporated lambda to extract meta data from image that was being uploaded to S3. I was also able to pull the `images.json` from the bucket of S3. However, 
-I was unable to push the updated `image.json` back to the bucket.
+I was unable to push the updated `image.json` back to the bucket. Resources I have used were [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property)
 
 ### Cloud Watch Log
 ![](./assets/cloud_watch.png)
